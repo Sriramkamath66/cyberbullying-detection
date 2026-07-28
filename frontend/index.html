@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberSafe Chat — Cyberbullying Detection Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     APP SHELL
+═══════════════════════════════════════════════════════════════════ -->
+<div class="app">
+
+  <!-- ── Left Sidebar ─────────────────────────────────────────── -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="logo">
+        <span class="logo-icon">🛡️</span>
+        <span class="logo-text">CyberSafe Chat</span>
+      </div>
+    </div>
+
+    <nav class="channels">
+      <p class="section-label">Channels</p>
+      <a class="channel active" href="#"># general</a>
+      <a class="channel" href="#"># random</a>
+      <a class="channel" href="#"># support</a>
+      <a class="channel" href="#"># announcements</a>
+    </nav>
+
+    <div class="users-section">
+      <p class="section-label">Online — <span id="online-count">4</span></p>
+      <div class="user-list">
+        <div class="user-item"><span class="status-dot online"></span> Alice 👩</div>
+        <div class="user-item"><span class="status-dot online"></span> Bob 👨</div>
+        <div class="user-item"><span class="status-dot online"></span> Carol 👩‍💻</div>
+        <div class="user-item"><span class="status-dot online"></span> You 🧑</div>
+      </div>
+    </div>
+
+    <div class="api-status-box">
+      <p class="section-label">API Status</p>
+      <div id="api-status" class="api-status checking">
+        <span class="status-dot"></span>
+        <span id="api-status-text">Checking…</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ── Main Chat ─────────────────────────────────────────────── -->
+  <main class="chat-area">
+    <header class="chat-header">
+      <div class="channel-info">
+        <span class="hash">#</span>
+        <span class="channel-name">general</span>
+        <span class="channel-desc">A safe space to chat — monitored by AI detection</span>
+      </div>
+      <div class="header-right">
+        <div class="alert-banner hidden" id="alert-banner">
+          ⚠️ <span id="alert-text">Harmful content detected</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="messages" id="messages">
+      <div class="day-divider"><span>Today</span></div>
+    </div>
+
+    <div class="input-area">
+      <div class="model-pill">
+        <label>Model:</label>
+        <select id="model-select">
+          <option value="logistic_regression">Logistic Regression</option>
+          <option value="random_forest">Random Forest</option>
+        </select>
+      </div>
+      <div class="input-wrapper">
+        <textarea
+          id="msg-input"
+          placeholder="Type a message in #general …"
+          rows="1"
+        ></textarea>
+        <button id="send-btn" title="Send">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- ── Right Panel ───────────────────────────────────────────── -->
+  <aside class="panel">
+    <div class="panel-section">
+      <p class="section-label">Detection Stats</p>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-value" id="stat-total">0</div>
+          <div class="stat-label">Total</div>
+        </div>
+        <div class="stat-card safe">
+          <div class="stat-value" id="stat-safe">0</div>
+          <div class="stat-label">Safe</div>
+        </div>
+        <div class="stat-card flagged">
+          <div class="stat-value" id="stat-flagged">0</div>
+          <div class="stat-label">Flagged</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-rate">0%</div>
+          <div class="stat-label">Flag Rate</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-section">
+      <p class="section-label">Model Comparison</p>
+      <div id="metrics-container">
+        <div class="metrics-loading">Loading metrics…</div>
+      </div>
+    </div>
+
+    <div class="panel-section">
+      <p class="section-label">Category Breakdown</p>
+      <div class="category-breakdown" id="category-breakdown">
+        <div class="cat-row"><span class="cat-dot safe-dot"></span><span>Safe</span><span class="cat-count" id="cat-safe">0</span></div>
+        <div class="cat-row"><span class="cat-dot hate-dot"></span><span>Hate Speech</span><span class="cat-count" id="cat-hate">0</span></div>
+        <div class="cat-row"><span class="cat-dot harass-dot"></span><span>Harassment</span><span class="cat-count" id="cat-harass">0</span></div>
+        <div class="cat-row"><span class="cat-dot cyber-dot"></span><span>Cyberbullying</span><span class="cat-count" id="cat-cyber">0</span></div>
+      </div>
+    </div>
+
+    <div class="panel-section">
+      <p class="section-label">Legend</p>
+      <div class="legend">
+        <div class="legend-item"><span class="legend-bar safe-bar"></span><span>Not Cyberbullying</span></div>
+        <div class="legend-item"><span class="legend-bar hate-bar"></span><span>Hate Speech</span></div>
+        <div class="legend-item"><span class="legend-bar harass-bar"></span><span>Harassment</span></div>
+        <div class="legend-item"><span class="legend-bar cyber-bar"></span><span>Cyberbullying</span></div>
+      </div>
+    </div>
+  </aside>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+text,label
+"Hey! How was your weekend? Did you do anything fun?",not_cyberbullying
+"Just finished that book you recommended. It was amazing!",not_cyberbullying
+"Reminder: study group meeting at 5pm in the library today",not_cyberbullying
+"Happy birthday! Hope you have an absolutely amazing day!",not_cyberbullying
+"That presentation went really well today, good job everyone!",not_cyberbullying
+"Anyone up for lunch? I know a great new place nearby",not_cyberbullying
+"Just got a puppy! She is absolutely adorable and fluffy",not_cyberbullying
+"The weather is so nice today, perfect for a long walk outside",not_cyberbullying
+"Can someone help me understand this math problem please?",not_cyberbullying
+"Congrats on your promotion! You totally deserve it!",not_cyberbullying
+"I am so excited for the upcoming movie release this weekend",not_cyberbullying
+"Does anyone have notes from today's lecture? I missed class",not_cyberbullying
+"This cafe has the best coffee, I highly recommend stopping by",not_cyberbullying
+"Looking forward to the team dinner on Friday evening",not_cyberbullying
+"Great game last night! The team played incredibly well",not_cyberbullying
+"I found this amazing recipe for pasta, let me share it with you",not_cyberbullying
+"Can we reschedule our meeting to Thursday? Something came up",not_cyberbullying
+"Thanks for helping me with that project, I really appreciate it",not_cyberbullying
+"The new season of that show is incredible, absolutely loving it",not_cyberbullying
+"Good morning everyone! Hope you all have a productive day",not_cyberbullying
+"Finally finished all my assignments, feeling so relieved right now",not_cyberbullying
+"Who is joining the study session tomorrow afternoon in room B4?",not_cyberbullying
+"The concert was absolutely fantastic last night, best show ever",not_cyberbullying
+"Has anyone tried the new restaurant downtown? The food was great",not_cyberbullying
+"Just got back from hiking, the views from the top were breathtaking",not_cyberbullying
+"Remember to vote in the student council elections this Friday",not_cyberbullying
+"Wishing everyone good luck on the upcoming finals next week",not_cyberbullying
+"The charity event was a huge success, thanks everyone for helping",not_cyberbullying
+"I started meditating and it is really helping with my stress levels",not_cyberbullying
+"Looking for recommendations for a good fantasy novel to read",not_cyberbullying
+"The art exhibition at the museum was so inspiring and beautiful",not_cyberbullying
+"Team practice went great today, we are definitely improving",not_cyberbullying
+"Just adopted a rescue cat, she is so sweet and affectionate",not_cyberbullying
+"Anyone want to join the coding club? It is really fun and welcoming",not_cyberbullying
+"The new park in our neighborhood looks absolutely lovely this season",not_cyberbullying
+"Thanks for all the birthday wishes everyone, feeling so loved today",not_cyberbullying
+"I made homemade pizza for the first time and it turned out amazing",not_cyberbullying
+"The documentary on climate change was really eye-opening and informative",not_cyberbullying
+"Has anyone seen the new comedy show? It is honestly so funny",not_cyberbullying
+"Let us plan a game night this weekend, I will bring the snacks",not_cyberbullying
+"I love how supportive and kind everyone is in this community",not_cyberbullying
+"Just finished my workout and feeling really energized and good",not_cyberbullying
+"The sunset today was absolutely stunning, I took so many photos",not_cyberbullying
+"Our teacher explained that concept really clearly today in class",not_cyberbullying
+"I am grateful for such wonderful friends and family in my life",not_cyberbullying
+"The school play was amazing last night, everyone performed so well",not_cyberbullying
+"Looking forward to the long weekend coming up, need the break",not_cyberbullying
+"I have been practicing my presentation and feeling really confident",not_cyberbullying
+"The volunteering event was so rewarding, I highly recommend joining",not_cyberbullying
+"We should celebrate together this Friday, you all worked so hard!",not_cyberbullying
+"People from that country are all criminals and should be expelled immediately",hate_speech
+"Those people are lazy by nature and do not contribute anything to society",hate_speech
+"Women are too emotional to be in leadership positions, it is just biology",hate_speech
+"That religious group is trying to secretly take over everything in this country",hate_speech
+"Immigrants are ruining our culture and stealing jobs that belong to us",hate_speech
+"People of that race have lower intelligence, it is a proven scientific fact",hate_speech
+"Those people should stay in their own country where they clearly belong",hate_speech
+"That religion is a dangerous violent cult and all its followers are terrorists",hate_speech
+"Gender equality is nothing but an attack on traditional family values",hate_speech
+"Those foreigners do not share our values and they never will belong here",hate_speech
+"People of that ethnic background are genetically inferior to the rest of us",hate_speech
+"That group is responsible for every single problem we have in this society",hate_speech
+"Women should stay home and stop trying to compete with men in the workplace",hate_speech
+"Those immigrants are nothing but parasites living off of our hard-earned taxes",hate_speech
+"That religion openly promotes violence and should be completely banned here",hate_speech
+"Mixed relationships are completely unnatural and a disgrace to our heritage",hate_speech
+"That ethnic group controls all the media and the banks in this country",hate_speech
+"LGBTQ people are mentally ill and need to be fixed through conversion therapy",hate_speech
+"People from that country are all the same: dishonest, corrupt, and dangerous",hate_speech
+"That minority group gets preferential treatment they have not earned or deserve",hate_speech
+"Women are too physically weak for demanding jobs, that is simply biology talking",hate_speech
+"Those people should be forcibly deported regardless of their legal residency status",hate_speech
+"That religious text promotes nothing but hatred and should be officially outlawed",hate_speech
+"People of that race are naturally more violent and aggressive by nature",hate_speech
+"That culture is primitive and backward compared to the civilized world we have built",hate_speech
+"Foreigners are actively diluting our national identity and destroying our heritage",hate_speech
+"That sexual orientation is an abomination against all natural order and morality",hate_speech
+"People from that background have no respect for our laws or civilized customs",hate_speech
+"That ethnic group has always been a burden and a drain on our society",hate_speech
+"Women who work outside the home are selfish and neglecting their true duties",hate_speech
+"Those immigrants are bringing disease and violent crime straight to our streets",hate_speech
+"People of that faith are all secretly extremists hiding their radical agenda",hate_speech
+"That minority group is taking over and systematically replacing our people",hate_speech
+"Men and women are fundamentally unequal in capability by design of nature",hate_speech
+"That religion specifically teaches its followers to hate everyone outside it",hate_speech
+"Those people from that country are predisposed to criminal behavior by nature",hate_speech
+"Every single foreigner should be required to return to their country of origin",hate_speech
+"That group is simply too different to ever successfully integrate into our society",hate_speech
+"People of that orientation are actively destroying the sacred institution of marriage",hate_speech
+"That ethnic community is deliberately clannish and refuses to properly assimilate",hate_speech
+"Women are naturally and provably less capable in math, science, and engineering",hate_speech
+"Those immigrants represent a clear and present threat to our national security",hate_speech
+"That religion is fundamentally incompatible with any modern democratic civilization",hate_speech
+"People of that race commit the overwhelming majority of violent crimes in this city",hate_speech
+"That group weaponizes their victimhood status to manipulate and control everyone",hate_speech
+"Foreigners who openly practice their foreign customs are being deliberately disrespectful",hate_speech
+"That sexual minority is actively and deliberately corrupting the minds of children",hate_speech
+"People from that background are prone to extremism and violence by their very nature",hate_speech
+"That ethnic group has a deeply embedded criminal mindset passed down through generations",hate_speech
+"Women do not belong in the military because their presence actively weakens it",hate_speech
+"You are the ugliest person I have ever had the misfortune of seeing in my life",harassment
+"Nobody likes you and everyone talks about how truly pathetic you really are",harassment
+"You should just disappear completely because the world would genuinely be better",harassment
+"You are so profoundly stupid it is genuinely embarrassing to watch you function",harassment
+"Your parents must be completely ashamed of what a total failure you turned out to be",harassment
+"You have absolutely no real friends because everyone just tolerates your sad presence",harassment
+"I have seen better looking things scraped off the bottom of a garbage can",harassment
+"You are a complete and utter waste of space and everyone around you knows it",harassment
+"Your opinions are completely worthless and you should just stop talking forever",harassment
+"You make every single person around you deeply uncomfortable and miserable daily",harassment
+"I genuinely feel sorry for anyone unfortunate enough to have to spend time with you",harassment
+"Your entire life is an absolute joke and you are too stupid to even realize it",harassment
+"No person in their right mind could ever love someone as disgusting as you are",harassment
+"You are not just stupid, you are aggressively and willfully stupid every single day",harassment
+"Everyone at school is laughing at you behind your back constantly, you know that right",harassment
+"You should be deeply ashamed to even show your face in public looking like that",harassment
+"Your presence makes every single room significantly worse the moment you walk in",harassment
+"I genuinely cannot stand the sight or the sound of you and never want to again",harassment
+"You are the embodiment of everything wrong with your entire pathetic generation",harassment
+"The kindest thing you could do for everyone around you is to never speak again",harassment
+"You are a burden on every single person around you and they are too polite to say it",harassment
+"I do not understand how you can even look yourself in the mirror every single morning",harassment
+"You are genuinely one of the most deeply unpleasant people I have ever encountered",harassment
+"Your so-called personality is repulsive and off-putting to every person who meets you",harassment
+"People only spend time with you out of pity and obligation, never actual friendship",harassment
+"You must have had a truly terrible upbringing to turn out this hopelessly awful",harassment
+"Everything about you screams desperate, pathetic, and attention-seeking to everyone",harassment
+"I am deeply embarrassed to even know someone as lame and worthless as you are",harassment
+"Your sense of humor is just as terrible and off-putting as everything else about you",harassment
+"You have literally never had a single original thought in your entire miserable life",harassment
+"The world would be a genuinely and measurably better place without your presence in it",harassment
+"You are the textbook definition of a complete, total, and utter failure as a human",harassment
+"I have never in my life met anyone who contributes so little and takes so very much",harassment
+"You are too stupid and too ugly for any reasonable person to ever care about you",harassment
+"Your very existence is a constant inconvenience to every single person who knows you",harassment
+"If brains were even remotely valuable you still would not be worth a single penny",harassment
+"You are probably the single most irrelevant person I have ever had the displeasure of meeting",harassment
+"Everything you do is completely wrong and everyone around you is just too kind to say so",harassment
+"I genuinely and deeply pity you because you clearly have absolutely nothing going for you",harassment
+"You are exactly the kind of person that decent people warn their friends to avoid completely",harassment
+"Nobody wants to hear a single word of what you have to say so just stop talking",harassment
+"You are so deeply and genuinely annoying that people count the seconds until you leave",harassment
+"You should really and truly reconsider every single life decision you have ever made",harassment
+"The secondhand cringe you cause is genuinely physically painful for everyone present",harassment
+"You are deeply, profoundly, and irreversibly disappointing as a human being to everyone",harassment
+"I do not know who ever told you that you were smart or capable, but they absolutely lied",harassment
+"Your fashion sense is somehow even more terrible and off-putting than your actual personality",harassment
+"You are genuinely the absolute worst and every single person around you already knows it",harassment
+"No amount of effort will ever make you even remotely likeable or worthwhile to anyone",harassment
+"I feel genuinely sorry for anyone who has to interact with you on any kind of regular basis",harassment
+"I am going to make your life at school absolutely miserable starting right now",cyberbullying
+"Tell everyone what I told you and see exactly what I do to you in response",cyberbullying
+"You better watch out because I know where you live and I will find you",cyberbullying
+"I am going to send those pictures to everyone unless you do exactly what I say",cyberbullying
+"You are not invited and you never will be, so just get out of here now",cyberbullying
+"Everyone in school hates you and we have all agreed together to completely ignore you",cyberbullying
+"Do what I say right now or I will tell everyone your most embarrassing secret",cyberbullying
+"You are going to deeply regret crossing me, I absolutely promise you that much",cyberbullying
+"I will make sure you lose every single one of your friends if you do not listen to me",cyberbullying
+"We are going to exclude you from absolutely everything starting from today onwards",cyberbullying
+"Do not even think about coming to the party or there will be serious consequences",cyberbullying
+"I have screenshots of your private messages and I will share them with everyone",cyberbullying
+"You are going to have a terrible time at this school if you do not cooperate with me",cyberbullying
+"I will spread so many rumors about you that no one will ever want to be your friend",cyberbullying
+"You better delete that post immediately or face very serious consequences from me",cyberbullying
+"Give me your lunch money or I will tell everyone about your most embarrassing moment",cyberbullying
+"Everyone has agreed that you are not cool enough to hang out with our group anymore",cyberbullying
+"I will make absolutely every single day at this school a total nightmare for you",cyberbullying
+"You think you are better than us? You are going to pay dearly for that attitude",cyberbullying
+"We have a whole group chat dedicated specifically to talking about how much we hate you",cyberbullying
+"If you do not give me the answers I will make sure everyone knows all your secrets",cyberbullying
+"You are banned from our lunch table and if you try to sit here you will regret it",cyberbullying
+"I will tell the teacher you cheated unless you do all of my homework for me",cyberbullying
+"You better not show up to the event or we will publicly humiliate you in front of everyone",cyberbullying
+"I know things about you that could completely and permanently ruin your reputation",cyberbullying
+"Give me your account password right now or I will hack it myself anyway",cyberbullying
+"You are going to be completely alone forever because I will make sure nobody likes you",cyberbullying
+"Stop talking to him right now or we will make your life extremely difficult from now on",cyberbullying
+"I am going to screenshot this entire conversation and send it to everyone we know",cyberbullying
+"You cannot sit with us and if you try everyone here will laugh at you openly",cyberbullying
+"Do what I say or I am posting all of your photos online for absolutely everyone to see",cyberbullying
+"We have decided as a group that you are not allowed in our friend group anymore",cyberbullying
+"You better not tell anyone about this conversation or you will regret it very much",cyberbullying
+"I will follow you home after school and you will not enjoy what happens next",cyberbullying
+"Everyone has agreed to pretend you simply do not exist starting from today",cyberbullying
+"You think you can report me to a teacher? You have no idea what I am capable of doing",cyberbullying
+"I will get all my friends to mass report all your accounts and get you permanently banned",cyberbullying
+"Do what I tell you or your crush will find out exactly what you have been saying about them",cyberbullying
+"We are all going to vote you off the group project and make sure you fail completely",cyberbullying
+"You better apologize publicly or I will humiliate you in front of the entire school",cyberbullying
+"If you do not follow me back I am going to post all your most embarrassing photos",cyberbullying
+"Your social life is completely over unless you listen to exactly what I tell you to do",cyberbullying
+"I am going to convince everyone that you said things you never actually said",cyberbullying
+"Do not even think about telling a teacher because that will only make everything much worse",cyberbullying
+"We are organizing everyone to mass leave negative reviews on your business page online",cyberbullying
+"You have exactly 24 hours to do what I want or all your private information gets posted",cyberbullying
+"I will keep messaging you every single day until you crack and finally do what I say",cyberbullying
+"Your entire reputation at this school is in my hands so you better cooperate with me",cyberbullying
+"Everyone already knows what you did and we are all talking about it constantly",cyberbullying
+"I can destroy everything you care about and I absolutely will if you do not listen to me",cyberbullying

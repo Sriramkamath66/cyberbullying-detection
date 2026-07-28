@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Trained model binaries — regenerated during Render build
+backend/models/*.pkl
+
+# Generated 10k dataset — regenerated during Render build
+backend/data/cyberbullying_data_full.csv
+
+# Node
+frontend-react/node_modules/
+frontend-react/dist/
+frontend-react/.env.local
+frontend-react/.env.production
+
+# OS
+.DS_Store
+Thumbs.db
