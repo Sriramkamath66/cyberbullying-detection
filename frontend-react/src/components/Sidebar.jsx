@@ -15,7 +15,7 @@ export default function Sidebar({ apiOnline }) {
   const statusClass =
     apiOnline === null ? 'check' : apiOnline ? 'online' : 'offline'
   const statusText  =
-    apiOnline === null ? 'Checking…' : apiOnline ? 'API Online' : 'API Offline'
+    apiOnline === null ? 'Starting up…' : apiOnline ? 'API Online' : 'API Offline'
 
   return (
     <aside className="sidebar">

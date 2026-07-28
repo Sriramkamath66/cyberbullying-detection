@@ -6,10 +6,10 @@ export function useApi() {
   const [metrics,   setMetrics  ] = useState(null)
   const didLoad = useRef(false)
 
-  const checkHealth = useCallback(async () => {
+  const checkHealth = useCallback(async (timeout = 65_000) => {
     try {
       const res = await fetch(`${API_BASE}/health`, {
-        signal: AbortSignal.timeout(3000),
+        signal: AbortSignal.timeout(timeout),
       })
       const ok = res.ok
       setApiOnline(ok)
@@ -47,8 +47,8 @@ export function useApi() {
     checkHealth().then(ok => { if (ok) loadMetrics() })
 
     const id = setInterval(() => {
-      checkHealth().then(ok => { if (ok && !metrics) loadMetrics() })
-    }, 15_000)
+      checkHealth(10_000).then(ok => { if (ok && !metrics) loadMetrics() })
+    }, 10_000)
     return () => clearInterval(id)
   }, [checkHealth, loadMetrics, metrics])
 
